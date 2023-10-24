@@ -1,0 +1,21 @@
+{
+  "name": "machine-learning-experiments",
+  "source": "experiments/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.9",
+    "parcel": "^2.9.3",
+    "prettier": "^3.0.3",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
